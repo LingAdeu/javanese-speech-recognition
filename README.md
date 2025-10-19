@@ -1,9 +1,7 @@
 # **Javanese Speech Recognition Model**
 
->[!important]
-> Notebook for model training: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEv6dvIo9LjMEOZdZWB9sxWkQxKHQj0L?usp=sharing)
->
-> Notebook for model evaluation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEv6dvIo9LjMEOZdZWB9sxWkQxKHQj0L?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEv6dvIo9LjMEOZdZWB9sxWkQxKHQj0L?usp=sharing) (Model Training) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEv6dvIo9LjMEOZdZWB9sxWkQxKHQj0L?usp=sharing) (Model Testing)
 
 ## Summary
 This project demonstrates how a speech recognition model was trained for Javanese language using the Whisper architecture. The model was trained and tested on [Ayush Kumar Bar](https://huggingface.co/datasets/ayush-shunyalabs/javanese-speech-dataset)'s Javanese dataset with training conducted for 3 epochs at a learning rate of 1e-5. Evaluation on 728 Javanese audio samples (syntethic or non-natural data) results in a Word Error Rate (WER) of 0.25, a Character Error Rate (CER) of 0.07, and a Real-Time Factor (RTF) of 0.06. These metrics indicate that the model achieves moderate to good transcription accuracy and with excellent performance given the low RTF (fast processing).
