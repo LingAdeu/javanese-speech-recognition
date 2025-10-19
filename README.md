@@ -2,6 +2,7 @@
 
 >[!important]
 > Notebook for model training: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEv6dvIo9LjMEOZdZWB9sxWkQxKHQj0L?usp=sharing)
+>
 > Notebook for model evaluation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEv6dvIo9LjMEOZdZWB9sxWkQxKHQj0L?usp=sharing)
 
 ## Summary
@@ -9,8 +10,8 @@ This project demonstrates how a speech recognition model was trained for Javanes
 
 $$
 \begin{align}
-WER&=\frac{\text{Substitutions}+\text{Deletions}+\text{Insertions}}{Number of Words in Reference}\\
-CER&=\frac{\text{Substitutions}+\text{Deletions}+\text{Insertions}}{Number of Characters in Reference}
+WER&=\frac{\text{Substitutions}+\text{Deletions}+\text{Insertions}}{\text{Number of Words in Reference}}\\
+CER&=\frac{\text{Substitutions}+\text{Deletions}+\text{Insertions}}{\text{Number of Characters in Reference}}
 \end{align}
 $$
 
